@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.jpg" />
+    <title>LIVEPULGA - Jugueteria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body >
+    <div class="container">
+      <div class="row">
+        <!--Barra de inicio-->
+        <div id="barraInicio"> 
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="http://127.0.0.1:5500/index.html#"><img src="img/logo.jpg" alt="Logo" width="100" height="100" class="d-inline-block align-text-top"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Departamentos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="ProductosHombre.html">HOMBRES</a></li>
+                      <li><a class="dropdown-item" href="ProductosMujer.html">MUJER</a></li>
+                      <li><a class="dropdown-item" href="ProductosKids.html">KIDS</a></li>
+                      <li><a class="dropdown-item" href="ProductosZapateria.html">ZAPATERIA</a></li>
+                      <li><a class="dropdown-item" href="ProductosJugueteria.html">JUGUETERÍA</a></li>
+                      <li><a class="dropdown-item" href="ProductosElectronica.html">ELECTRONICA</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="inicio.html">Inicio/Registro</a>
+                  </li>
+                </ul>
+                <nav class="navbar">
+                  <div class="container">
+                    <a class="navbar" href="#">
+                      <img src="img/carrito.png" alt="compras" width="40" height="40">
+                    </a>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="container">
+            <div class="row">
+                <p><a href="file:///C:/Users/HOGAR/Documents/Programacion%20WEB/Copia%20de%20Ejercicio%206/ProyectoFinal/index.html">Pagina Principal</a> / Jugueteria</p>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="row">
+                        <strong><p class="t">Categorías</p></strong>
+                        <ul class="c">
+                            <li><a href="#" id="juguetes">Juguetes</a></li>
+                            <li><a href="#" id="pelotas">Pelotas</a></li>
+                            <li><a href="#" id="coches">Coches</a></li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <strong><p class="t">Filtros</p></strong>
+                        <form>
+                            <p>Color</p>
+                            <ul class="f">
+                                <li><input type="checkbox" id="colorNegro"> Negro</li>
+                                <li><input type="checkbox" id="colorAzul"> Azul</li>
+                                <li><input type="checkbox" id="colorBlanco"> Blanco</li>
+                            </ul>
+                            <p>Tamaño</p>
+                            <ul class="f">
+                                <li><input type="checkbox" id="chico"> Chico</li>
+                                <li><input type="checkbox" id="grande"> Grande</li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-10 productos">
+                    <div class="row prod">
+                        <!-- Primer grupo de 4 tarjetas -->
+                        <div class="col-md-3 juguetes pelotas colorNegro grande">
+                            <div class="card" style="width: 100%;">
+                                <img class="card-img-top" src="img/index/h1.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pelota Negra</h5>
+                                    <p class="card-text">$578.00</p>
+                                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 juguetes coches colorNegro">
+                            <div class="card" style="width: 100%;">
+                                <img class="card-img-top" src="img/index/h9.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Coche Negro</h5>
+                                    <p class="card-text">$583.00</p>
+                                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 juguetes pelotas colorNegro grande">
+                            <div class="card" style="width: 100%;">
+                                <img class="card-img-top" src="img/index/h2.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pelota Negra</h5>
+                                    <p class="card-text">1099.00</p>
+                                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 juguetes coches colorBlanco">
+                            <div class="card" style="width: 100%;">
+                                <img class="card-img-top" src="img/index/h14.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Coche Blanco</h5>
+                                    <p class="card-text">$768.00</p>
+                                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+<!--Final-->
+<div class="row" id="final">
+    <div class="container">
+      <div class="col">
+          <div class="row">
+            <div class="col-4">
+                <h4>Atencion al cliente</h4>
+                <ul>
+                  <li>Como comprar</li>
+                  <li>Donde esta mi pedido</li>
+                  <li>Que hacer si no llega mi compra</li>
+                  <li>Devoluciones y garantias</li>
+                  <li>Centro de ayuda</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h4>Métodos de pago</h4>
+                <ul>
+                  <li>Tarjetaa de credito</li>
+                  <li>Efectivo</li>
+                  <li>Mi crediliver</li>
+                  <li>Mas...</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h4>Redes sociales</h4>
+                <ul>
+                  <li>Facebook</li>
+                  <li>Instagram</li>
+                  <li>X</li>
+                  <li>Youtuber</li>
+                </ul>
+            </div>
+        </div>
+        <p>Te llamaremos si es necesario para darle seguimiento a tu compra.</p>
+        <p>Todos los precios en Liverpulga.com son en pesos mexicanos e incluyen impuestos. Los precios y promociones de nuestro sitio web son exclusivos de Coppel.com. Los abonos quincenales, el plazo o el pago inicial</p>
+        <p>pueden variar según el margen de crédito y el historial de pago de cada cliente. Los quincenales contemplan: 24, 36, 48, 60 o 72 quincenas para muebles y 24 quincenas para ropa. Los productos de Marketplace que</p>
+        <p>lleves con tu crédito Liverpulga, cuentan con un plazo de 24 quincenas y son financiados con Liverpulga Pay.</p>
+        <p>2024 © Liverpulga todos los derechos reservados</p>
+      </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script>const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))</script>
+    <script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+    <script>
+        // Obtener los elementos de las categorías
+        const juguetes = document.querySelectorAll(".juguetes");
+        const pelotas = document.querySelectorAll(".pelotas");
+        const coches = document.querySelectorAll(".coches");
+
+        // Obtener todos los checkboxes
+        const checkboxes = document.querySelectorAll("input[type='checkbox']");
+
+        // Función para mostrar las tarjetas de la categoría seleccionada
+        function showCategory(categoryToShow) {
+            // Ocultar todas las categorías primero
+            juguetes.forEach(card => card.style.display = "none");
+            pelotas.forEach(card => card.style.display = "none");
+            coches.forEach(card => card.style.display = "none");
+
+            // Mostrar la categoría seleccionada
+            categoryToShow.forEach(card => card.style.display = "block");
+        }
+
+        // Función para activar/desactivar checkboxes según la categoría
+        function setCheckboxes(category) {
+            // Desmarcar todos los checkboxes
+            checkboxes.forEach(checkbox => checkbox.checked = false);
+
+            if (category === "juguetes" || category === "pelotas") {
+                checkboxes.forEach(checkbox => checkbox.checked = true);
+            } else if (category === "coches") {
+                const colorCheckboxes = document.querySelectorAll("input[type='checkbox'][id^='color']");
+                colorCheckboxes.forEach(checkbox => checkbox.checked = true);
+            }
+        }
+
+        // Función para ocultar tarjetas según los checkboxes seleccionados
+        function toggleCardsBasedOnCheckbox() {
+            checkboxes.forEach(checkbox => {
+                const className = checkbox.id;
+                const cards = document.querySelectorAll(`.${className}`);
+
+                if (checkbox.checked) {
+                    cards.forEach(card => card.style.display = "block");
+                } else {
+                    cards.forEach(card => card.style.display = "none");
+                }
+            });
+        }
+
+        // Asignar eventos de clic a los enlaces de categoría
+        document.getElementById("juguetes").addEventListener("click", function(event) {
+            event.preventDefault();
+            showCategory(juguetes);
+            setCheckboxes("juguetes");
+        });
+
+        document.getElementById("pelotas").addEventListener("click", function(event) {
+            event.preventDefault();
+            showCategory(pelotas);
+            setCheckboxes("pelotas");
+        });
+
+        document.getElementById("coches").addEventListener("click", function(event) {
+            event.preventDefault();
+            showCategory(coches);
+            setCheckboxes("coches");
+        });
+
+        // Agregar el evento 'change' para cada checkbox
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener("change", toggleCardsBasedOnCheckbox);
+        });
+    </script>
+</body>
+</html>

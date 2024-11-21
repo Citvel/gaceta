@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+}
+#barraInicio{
+    background:  #9b9b7c ;
+}
+
+#final{
+    background:  #9b9b7c ;
+}
+#final > p{
+    text-align: center;
+}
+
+h3{
+    padding: 30px;
+    padding-left: 455px;
+}
+
+#equipo{
+    margin-bottom: 50px;
+}

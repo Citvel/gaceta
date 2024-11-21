@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.jpg" />
+    <title>LIVEPULGA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body >
+    <div class="container">
+      <div class="row">
+        <!--Barra de inicio-->
+        <div id="barraInicio"> 
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="http://127.0.0.1:5500/index.html#"><img src="img/logo.jpg" alt="Logo" width="100" height="100" class="d-inline-block align-text-top"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Departamentos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="ProductosHombre.html">HOMBRES</a></li>
+                      <li><a class="dropdown-item" href="ProductosMujer.html">MUJER</a></li>
+                      <li><a class="dropdown-item" href="ProductosKids.html">KIDS</a></li>
+                      <li><a class="dropdown-item" href="ProductosZapateria.html">ZAPATERIA</a></li>
+                      <li><a class="dropdown-item" href="ProductosJugueteria.html">JUGUETERÍA</a></li>
+                      <li><a class="dropdown-item" href="ProductosElectronica.html">ELECTRONICA</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="inicio.html">Inicio/Registro</a>
+                  </li>
+                </ul>
+                <nav class="navbar">
+                  <div class="container">
+                    <a class="navbar" href="#">
+                      <img src="img/carrito.png" alt="compras" width="40" height="40">
+                    </a>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!--Carrusel 1-->
+      <div class="alert alert-warning">  
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/celulares.jpg" class="d-block w-100" alt="oferta">
+            </div>
+            <div class="carousel-item">
+              <img src="img/motos.jpg" class="d-block w-100" alt="oferta">
+            </div>
+            <div class="carousel-item">
+              <img src="img/pantalla.jpg" class="d-block w-100" alt="oferta">
+            </div>
+            <div class="carousel-item">
+              <img src="img/refri.jpg" class="d-block w-100" alt="oferta">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--Cuerpo-->
+      <div class="alert alert-warning">  
+        <div class="row">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/hombre.webp" class="card-img-top" alt="hombre">
+                  <div class="card-body">
+                    <h5 class="card-title">HOMBRES</h5>
+                  </div>
+                  <div class="card-footer">
+                    <a href="ProductosHombre.html" class="btn btn-primary">Ver más...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/mujer.webp" class="card-img-top" alt="mujer">
+                  <div class="card-body">
+                    <h5 class="card-title">MUJER</h5>
+                  </div>
+                  <div class="card-footer">
+                    <a href="ProductosMujer.html" class="btn btn-primary">Ver más...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/niños.webp" class="card-img-top" alt="niños">
+                  <div class="card-body">
+                    <h5 class="card-title">KIDS</h5>
+                  </div>
+                  <div class="card-footer">
+                    <a href="ProductosKids.html" class="btn btn-primary">Ver más...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <div class="alert alert-warning">
+        <div class="row">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/zapateria.webp" class="card-img-top" alt="Zapatos">
+                  <div class="card-body">
+                    <h5 class="card-title">ZAPATERIA</h5>
+                  </div>
+                  <div class="card-footer">
+                    <a href="ProductosZapateria.html" class="btn btn-primary">Ver más...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/juguetes.webp" class="card-img-top" alt="juguetes">
+                  <div class="card-body">
+                    <h5 class="card-title">JUGUETERÍA</h5>
+                  </div>
+                  <div class="card-footer">
+                    <a href="ProductosJugueteria.html" class="btn btn-primary">Ver más...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/electronica.webp" class="card-img-top" alt="Aparatos electronicos">
+                  <div class="card-body">
+                    <h5 class="card-title">ELECTRONICA</h5>
+                  </div>
+                  <div class="card-footer">
+                    <a href="ProductosElectronica.html" class="btn btn-primary">Ver más...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <!--Final-->
+      <div class="row" id="final">
+        <div class="container">
+          <div class="col">
+              <div class="row">
+                <div class="col-4">
+                    <h4>Atencion al cliente</h4>
+                    <ul>
+                      <li>Como comprar</li>
+                      <li>Donde esta mi pedido</li>
+                      <li>Que hacer si no llega mi compra</li>
+                      <li>Devoluciones y garantias</li>
+                      <li>Centro de ayuda</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h4>Métodos de pago</h4>
+                    <ul>
+                      <li>Tarjetaa de credito</li>
+                      <li>Efectivo</li>
+                      <li>Mi crediliver</li>
+                      <li>Mas...</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h4>Redes sociales</h4>
+                    <ul>
+                      <li>Facebook</li>
+                      <li>Instagram</li>
+                      <li>X</li>
+                      <li>Youtuber</li>
+                    </ul>
+                </div>
+            </div>
+            <p>Te llamaremos si es necesario para darle seguimiento a tu compra.</p>
+            <p>Todos los precios en Liverpulga.com son en pesos mexicanos e incluyen impuestos. Los precios y promociones de nuestro sitio web son exclusivos de Coppel.com. Los abonos quincenales, el plazo o el pago inicial</p>
+            <p>pueden variar según el margen de crédito y el historial de pago de cada cliente. Los quincenales contemplan: 24, 36, 48, 60 o 72 quincenas para muebles y 24 quincenas para ropa. Los productos de Marketplace que</p>
+            <p>lleves con tu crédito Liverpulga, cuentan con un plazo de 24 quincenas y son financiados con Liverpulga Pay.</p>
+            <p>2024 © Liverpulga todos los derechos reservados</p>
+          </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script>const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+      const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))</script>
+      <script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+</body>
+</html>
